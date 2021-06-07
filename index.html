@@ -19,6 +19,12 @@
             </div>
         </div>
 
+        <div class="quiz-result py-5 bg-light text-center">
+            <div class="container">
+                <p class="quiz-result__text lead">Your answers are correct in <span class="text-primary display-5 p-2">0 %</span></p>
+            </div>
+        </div>
+
         <div class="quiz py-5 bg-dark text-white">
             <div class="container">
                 <h2 class="my-3">Are you really ready to solve this quiz?</h2>
@@ -27,11 +33,11 @@
                         <p class="question__text lead">1. <mark>2 + 2</mark> equals?</p>
                         <div class="question__answer form-check ms-3">
                             <input class="form-check-input" type="radio" name="q1" value="a" checked />
-                            <label class="form-check-label" for="q1">4.</label>
+                            <label class="form-check-label" for="q1">3.</label>
                         </div>
                         <div class="question__answer form-check ms-3">
                             <input class="form-check-input" type="radio" name="q1" value="b" />
-                            <label class="form-check-label" for="q1">3.</label>
+                            <label class="form-check-label" for="q1">4.</label>
                         </div>
                     </div>
                     <div class="quiz__question py-4">
@@ -78,9 +84,11 @@
                             <label class="form-check-label" for="q1">No.</label>
                         </div>
                     </div>
-                    <input class="btn btn-primary mt-4" type="submit" value="CHECK" />
+                    <input class="btn btn-primary fs-5 mt-4" type="submit" value="CHECK" />
                 </form>
             </div>
         </div>
+
+        <script src="./app.js"></script>
     </body>
 </html>
